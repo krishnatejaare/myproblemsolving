@@ -1,0 +1,4 @@
+Given a binary search tree find the kth smallest element
+
+given a set of tasks with dependency between them.Schedule  the tasks. The added catch is to schedule them such that if two task are not dependent on each other, you should schedule them in parallel.
+

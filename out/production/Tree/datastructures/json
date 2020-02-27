@@ -1,0 +1,139 @@
+{
+  "cluster_name" : "elasticsearch",
+  "nodes" : {
+    "VpD-hwKwRIqdVx2OW9vHXA" : {
+      "timestamp" : 1399617279088,
+      "name" : "Baroness Blood",
+      "transport_address" : "inet[/10.176.2.219:9301]",
+      "host" : "imahostname.foo.com",
+      "ip" : [ "inet[/10.176.2.219:9301]", "NONE" ],
+      "jvm" : {
+        "timestamp" : 1399617279088,
+        "uptime_in_millis" : 7614895,
+        "mem" : {
+          "heap_used_in_bytes" : 3951738520,
+          "heap_used_percent" : 46,
+          "heap_committed_in_bytes" : 8432910336,
+          "heap_max_in_bytes" : 8432910336,
+          "non_heap_used_in_bytes" : 43766424,
+          "non_heap_committed_in_bytes" : 67457024,
+          "pools" : {
+            "young" : {
+              "used_in_bytes" : 155400104,
+              "max_in_bytes" : 1256259584,
+              "peak_used_in_bytes" : 1256259584,
+              "peak_max_in_bytes" : 1256259584
+            },
+            "survivor" : {
+              "used_in_bytes" : 121791488,
+              "max_in_bytes" : 157024256,
+              "peak_used_in_bytes" : 157024256,
+              "peak_max_in_bytes" : 157024256
+            },
+            "old" : {
+              "used_in_bytes" : 3674743856,
+              "max_in_bytes" : 7019626496,
+              "peak_used_in_bytes" : 5327903192,
+              "peak_max_in_bytes" : 7019626496
+            }
+          }
+        },
+        "threads" : {
+          "count" : 255,
+          "peak_count" : 272
+        },
+        "gc" : {
+          "collectors" : {
+            "young" : {
+              "collection_count" : 12959,
+              "collection_time_in_millis" : 522290
+            },
+            "old" : {
+              "collection_count" : 34,
+              "collection_time_in_millis" : 5314
+            }
+          }
+        },
+        "buffer_pools" : {
+          "direct" : {
+            "count" : 299,
+            "used_in_bytes" : 54046115,
+            "total_capacity_in_bytes" : 54046115
+          },
+          "mapped" : {
+            "count" : 2949,
+            "used_in_bytes" : 62190237213,
+            "total_capacity_in_bytes" : 62190237213
+          }
+        }
+      }
+    },
+    "ejNxlCDdQ-Ckm3tjtiZOqA" : {
+      "timestamp" : 1399617279088,
+      "name" : "Amiko Kobayashi",
+      "transport_address" : "inet[/10.176.2.219:9300]",
+      "host" : "imanotherhost.foo.com",
+      "ip" : [ "inet[/10.176.2.219:9300]", "NONE" ],
+      "jvm" : {
+        "timestamp" : 1399617279088,
+        "uptime_in_millis" : 7619895,
+        "mem" : {
+          "heap_used_in_bytes" : 5391081104,
+          "heap_used_percent" : 63,
+          "heap_committed_in_bytes" : 8432910336,
+          "heap_max_in_bytes" : 8432910336,
+          "non_heap_used_in_bytes" : 45252336,
+          "non_heap_committed_in_bytes" : 69382144,
+          "pools" : {
+            "young" : {
+              "used_in_bytes" : 563403336,
+              "max_in_bytes" : 1256259584,
+              "peak_used_in_bytes" : 1256259584,
+              "peak_max_in_bytes" : 1256259584
+            },
+            "survivor" : {
+              "used_in_bytes" : 98322320,
+              "max_in_bytes" : 157024256,
+              "peak_used_in_bytes" : 157024256,
+              "peak_max_in_bytes" : 157024256
+            },
+            "old" : {
+              "used_in_bytes" : 4729355448,
+              "max_in_bytes" : 7019626496,
+              "peak_used_in_bytes" : 5337267528,
+              "peak_max_in_bytes" : 7019626496
+            }
+          }
+        },
+        "threads" : {
+          "count" : 296,
+          "peak_count" : 318
+        },
+        "gc" : {
+          "collectors" : {
+            "young" : {
+              "collection_count" : 13538,
+              "collection_time_in_millis" : 571151
+            },
+            "old" : {
+              "collection_count" : 37,
+              "collection_time_in_millis" : 4694
+            }
+          }
+        },
+        "buffer_pools" : {
+          "direct" : {
+            "count" : 317,
+            "used_in_bytes" : 63481372,
+            "total_capacity_in_bytes" : 63481372
+          },
+          "mapped" : {
+            "count" : 3314,
+            "used_in_bytes" : 62231728077,
+            "total_capacity_in_bytes" : 62231728077
+          }
+        }
+      }
+    }
+  }
+}
